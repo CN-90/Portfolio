@@ -1,0 +1,59 @@
+/* COLORS */
+
+.gold {
+  color: whitesmoke;
+}
+
+/* UNIVERSAL */
+
+a {
+  text-decoration: none;
+  color: dodgerblue;
+
+  &:hover {
+    color: black;
+  }
+}
+
+.flex-row {
+  display: flex;
+}
+
+.header-primary {
+  margin: 0 auto;
+  font-size: 6.5rem;
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 5px;
+}
+
+.header-secondary {
+  font-size: 2rem;
+  color: rgb(143, 143, 143);
+  width: 60%;
+}
+
+.header-tertiary {
+  font-size: 2rem;
+}
+
+.project-description {
+  font-size: 1.6rem; 
+  margin-top: 1rem;
+  line-height: 1.4;
+  margin-bottom: 5rem;
+  color: #adadad;
+  font-weight: normal;
+}
+
+/* MARGIN */
+
+.ml-20 {
+  margin-left: 20rem;
+}
+
+.ml-15 {
+  margin-left: 15rem;
+}
+
+
+
